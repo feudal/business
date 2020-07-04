@@ -17,8 +17,6 @@ $(document).ready(function() {
     asNavFor: ".carusel"
   });
 
-  let mql = window.matchMedia('(max-width: 600px)');
-
   $(".trigger").on('click', (function() {
     $menu__submenu = $(".menu__submenu");
     $trigger = $(".trigger");
