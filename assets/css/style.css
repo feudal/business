@@ -104,8 +104,8 @@ ul.menu__submenu {
   padding: 0;
   position: absolute;
   z-index: 5;
-  top: 45px;
-  right: -5px;
+  top: 58px;
+  right: -20px;
 }
 
 ul.menu__submenu li {
@@ -150,11 +150,6 @@ nav.menu_active>ul {
   flex-flow: column;
   align-items: center;
   flex-wrap: wrap;
-}
-
-ul.menu__submenu {
-  left: -153px;
-  top: 0;
 }
 
 nav.menu_active .menu__link {
@@ -1091,6 +1086,11 @@ nav.menu_active .menu__link {
   .footer__link {
     font-size: 12px;
   }
+
+  ul.menu__submenu {
+  left: -153px;
+  top: 0;
+}
 }
 
 @media only screen and (max-width: 768px) {
