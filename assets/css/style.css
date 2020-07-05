@@ -35,6 +35,7 @@ a {
 .logo {}
 
 .menu-burger {
+  cursor: pointer;
   width: 40px;
   height: 35px;
   display: flex;
@@ -1020,6 +1021,14 @@ nav.menu_active .menu__link {
   letter-spacing: 1.05px;
 }
 
+.footer__link_active {
+    color: #23282f;
+}
+
+.footer__link:hover {
+  color: #23282f;
+}
+
 .contact {}
 
 .contact_bold {
@@ -1124,11 +1133,11 @@ nav.menu_active .menu__link {
   }
 
   .footer {
-  	padding-top: 20px;
+    padding-top: 20px;
   }
 
   i.fab {
-		font-size: 20px;
+    font-size: 20px;
   }
 }
 
@@ -1164,7 +1173,7 @@ nav.menu_active .menu__link {
   width: 50px;
   height: 40px;
   font-size: 0px;
-  
+
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: repeat(4, 1fr);
@@ -1175,6 +1184,7 @@ nav.menu_active .menu__link {
 .block_blue {
   background-color: #29c2e1;
 }
+
 .block_orange {
   background-color: #f7941d;
 }
@@ -1184,24 +1194,31 @@ nav.menu_active .menu__link {
   0% {
     background-color: #f7941d;
   }
+
   8% {
-    background-color:#f7941d;
+    background-color: #f7941d;
   }
+
   10% {
     background-color: transparent;
   }
+
   12% {
     background-color: #f7941d;
   }
+
   58% {
-    background-color:#f7941d;
+    background-color: #f7941d;
   }
+
   60% {
     background-color: transparent;
   }
+
   62% {
     background-color: #f7941d;
   }
+
   100% {
     background-color: #f7941d;
   }
@@ -1211,65 +1228,84 @@ nav.menu_active .menu__link {
   0% {
     background-color: #29c2e1;
   }
+
   8% {
     background-color: #29c2e1;
   }
+
   10% {
     background-color: transparent;
   }
+
   12% {
     background-color: #29c2e1;
   }
+
   58% {
     background-color: #29c2e1;
   }
+
   60% {
     background-color: transparent;
   }
+
   62% {
     background-color: #29c2e1;
   }
+
   100% {
     background-color: #29c2e1;
   }
 }
 
-.block1 {  
+.block1 {
   animation: changeBlue 15.6s linear 0s infinite;
 }
+
 .block7 {
   animation: changeOrange 15.6s linear 0.2s infinite;
 }
+
 .block13 {
   animation: changeOrange 15.6s linear 0.4s infinite;
 }
-.block19{
+
+.block19 {
   animation: changeOrange 15.6s linear 0.6s infinite;
 }
+
 .block15 {
   animation: changeOrange 15.6s linear 0.8s infinite;
 }
+
 .block9 {
   animation: changeOrange 15.6s linear 1s infinite;
 }
+
 .block3 {
   animation: changeBlue 15.6s linear 1.2s infinite;
 }
+
 .block6 {
   animation: changeBlue 15.6s linear 1.4s infinite;
 }
+
 .block2 {
   animation: changeBlue 15.6s linear 1.6s infinite;
 }
+
 .block8 {
   animation: changeBlue 15.6s linear 1.8s infinite;
 }
+
 .block4 {
   animation: changeBlue 15.6s linear 2s infinite;
 }
+
 .block10 {
   animation: changeBlue 15.6s linear 2.2s infinite;
 }
+
 .block5 {
   animation: changeBlue 15.6s linear 2.4s infinite;
 }

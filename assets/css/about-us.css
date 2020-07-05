@@ -1,0 +1,148 @@
+/*****--------------------about us-----------------*****/
+.section-about-us img {
+  width: 100%;
+  max-height: 310px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.wrapper {
+  position: absolute;
+  top: 150px;
+  left: calc(50% - 215px);
+  text-align: center;
+}
+
+.about-us__title {
+  color: #ffffff;
+  font-family: Raleway;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 700;
+
+}
+
+.about-us__subtitle {
+  color: #fff;
+  font-family: "Raleway";
+  text-transform: uppercase;
+  letter-spacing: 1.05px;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+/*****--------------------we are-----------------*****/
+.we-are {
+  padding: 100px 0 40px;
+}
+
+.wrapper-paragraph {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+  margin-bottom: 70px;
+}
+
+.wrapper-paragraph p:first-of-type {
+  margin-right: 75px;
+}
+
+.we-are__paragraph {
+  color: #55595f;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.wrapper-statistic {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e6eeef;
+  padding-top: 75px;
+}
+
+.wrapper-statistic__block {
+  color: #23282f;
+  font-family: Karla;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 40px;
+}
+
+.wrapper-statistic__img {
+  margin-right: 40px;
+}
+
+.wrapper-statistic__group {}
+
+.wrapper-statistic__nr {
+  font-size: 60px;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+
+}
+
+.wrapper-statistic__object {
+  letter-spacing: 0.35px;
+}
+
+/*****--------------------media-----------------*****/
+@media only screen and (max-width: 1440px) {}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper-statistic {
+    flex-wrap: wrap;
+  }
+
+  .wrapper-statistic__block {
+    width: 48%;
+    justify-content: center;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper-paragraph {
+    flex-flow: column;
+    justify-content: space-between;
+  }
+
+  .wrapper-paragraph p:first-of-type {
+    margin-bottom: 45px;
+  }
+
+  .wrapper-statistic__block {
+    width: 100%;
+    text-align: center;
+  }
+
+  .wrapper {
+    top: 200px;
+    left: calc(50% - 240px);
+  }
+
+  div.section-about-us img {
+    min-height: 350px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .about-us__subtitle {
+    font-size: 0;
+  }
+
+  .wrapper {
+    top: 200px;
+    left: calc(50% - 120px);
+  }
+}
+
+/*****--------------------media-----------------*****/
