@@ -17,6 +17,11 @@ $(document).ready(function() {
     asNavFor: ".carusel"
   });
 
+    $('.slider3').slick({
+    arrows: true,
+    dots: false,
+  });
+
   $(".trigger").on('click', (function() {
     $menu__submenu = $(".menu__submenu");
     $trigger = $(".trigger");

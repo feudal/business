@@ -101,3 +101,23 @@
   }
 }
 /*****--------------------media-----------------*****/
+
+.slider3 {
+  position: relative;
+  min-width: 0;
+}
+
+.slider3 img {
+  width: 100%;
+}
+/* Стрелка влево */
+.slider3 .slick-arrow.slick-prev {
+  background: url("../img/arrowLeft.png") no-repeat center;
+  left: 5%;
+}
+
+/* Стрелка вправо */
+.slider3 .slick-arrow.slick-next {
+  background: url("../img/arrowRight.png") no-repeat center;
+  right: 5%;
+}
