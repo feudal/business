@@ -104,7 +104,7 @@ ul.menu__submenu {
   padding: 0;
   position: absolute;
   z-index: 5;
-  top: 58px;
+  top: 60px;
   right: -20px;
 }
 
@@ -115,7 +115,6 @@ ul.menu__submenu li {
 ul.menu__submenu_active {
   display: block;
   width: 103px;
-  border: 1px solid #29c2e1;
 }
 
 a.submenu__link {
@@ -1089,7 +1088,8 @@ nav.menu_active .menu__link {
 
   ul.menu__submenu {
   left: -153px;
-  top: 0;
+  top: 0; 
+  border: 2px solid #29c2e1;
 }
 }
 
